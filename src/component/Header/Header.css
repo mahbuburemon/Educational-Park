@@ -1,0 +1,21 @@
+
+
+.header{
+    background-color: rgb(240, 247, 250);
+    line-height: 80px;
+   width: 100%;
+}
+.items {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(24, 22, 22);
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    
+  }
+  .items:hover {
+    color: rgb(126, 190, 142);
+  }

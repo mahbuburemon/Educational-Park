@@ -1,0 +1,11 @@
+.banner-container{
+ 
+   background-color: rgb(240, 247, 250);
+  
+}
+.img-sec{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 200px;
+    width: 500px;
+}
