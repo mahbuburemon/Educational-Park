@@ -1,9 +1,25 @@
 
 
+
+
 .header{
-    background-color: rgb(240, 247, 250);
-    line-height: 80px;
-   width: 100%;
+    background-color: rgb(173, 222, 241);
+   
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+}
+.edu-park{
+  color: navy;
+  margin:20px;
+  border-radius: 15px; 
+
+}
+.edu-park img{
+ 
+  height: 110px;
+  width: 110px;
+  border-radius: 50px;
 }
 .items {
     list-style: none;
@@ -19,3 +35,4 @@
   .items:hover {
     color: rgb(126, 190, 142);
   }
+

@@ -1,13 +1,12 @@
 import React from 'react';
-import './Card.css'
 
-const Card = (props) => {
-    const { Name, Academic_Course, Question_Bank_for_uv, Question_Bank_for_job, Course_Price, img } = props.service
-
+const ItemValue = (props) => {
+    const { Name, Academic_Course, Question_Bank_for_uv, Question_Bank_for_job, Course_Price, img } = props.item
     return (
+
         <div>
             <div className="">
-                <div className="col ">
+                <div className="col">
                     <div className="card" >
                         <div>
                             <img src={img} class="card-img-top" alt="..." />
@@ -28,7 +27,9 @@ const Card = (props) => {
 
             </div>
         </div>
+
+
     );
 };
 
-export default Card;
+export default ItemValue;

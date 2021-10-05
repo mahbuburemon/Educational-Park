@@ -1,7 +1,17 @@
 .about{
-    /* display: flex; */
-
+    background-color: rgb(253, 253, 253);
+    margin: 10px;
+    
 }
-.about img{
-    width: 500px;
+.team{
+    padding: 10px;
+    margin: 10px;
+}
+.team img{
+    height: 300px;
+    width: 250px;
+
+    padding: 10px;
+    border-radius: 20px;
+
 }
